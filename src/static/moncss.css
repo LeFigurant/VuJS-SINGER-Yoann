@@ -1,0 +1,153 @@
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('cinema_background.jpg');;
+  color:white;
+  display:block;
+  margin-right: 30px;
+  z-index: 2;
+}
+header{
+  background-color: #6d071a;
+  text-align: center;
+  padding: 20px 0px;
+  color: white;
+}
+header > h1{
+  margin: 0;
+}
+
+
+.content-apply{
+  width: 1024px;
+  margin: 0 auto;
+}
+.apply-addMovie{
+  box-shadow: 0px 0px 5px grey;
+  text-align: center;
+  width: 250px;
+  position: fixed;
+  left: 10px;
+  top: 100px;
+  border-radius: 5px;
+  z-index: 1;
+}
+.apply-addMovie input{
+  margin: 10px 0px;
+  border-radius: 3px;
+  border: solid 1px grey;
+}
+.apply-addMovie button{
+  margin-top: 20px;
+  height: 50px;
+  width: 100%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color:  #16a085;
+  color: white;
+  border: solid 0px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.apply-addMovie span{
+  padding: 10px 0px;
+  display: block;
+  font-size: 20px;
+  background-color: #6d071a;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+}
+
+.rechercheBar{
+  height: 30px;
+  left: 60%;
+  top:10px;
+  width: 500px;
+  border-radius: 15px;
+  border: solid 1px grey;
+  text-align: center;
+  position:relative;
+
+}
+
+.film{
+  display: flex;
+  width: 100%;
+  border: solid 1px grey;
+  margin: 30px auto;
+  position: relative;
+}
+.film img{
+  width: 150px;
+}
+.film > .flim-img{
+  width: 150px;
+}
+.film > .film-text{
+  width: clac(100% - 150px);
+  padding: 0px 30px;
+}
+.button-vote{
+  margin: 0px 20px;
+  background-color: white;
+  border: solid 1px grey;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.button-remove{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  height: 20px;
+  width: 80px;
+  border: solid 0px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.button-edit{
+  position: absolute;
+  top: 10px;
+  right: 100px;
+  background-color: #16a085;
+  color: white;
+  height: 20px;
+  width: 80px;
+  border: solid 0px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.modal-edit{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height:auto;
+  width: 400px;
+  background-color: white;
+  text-align: center;
+  padding: 30px;
+  box-shadow: 0px 0px 30px grey;
+  border-radius: 10px;
+  color: black;
+}
+.modal-edit input{
+  margin-bottom: 30px;
+  width: 80%;
+  border-radius: 3px;
+  border: solid 1px grey;
+  font-size: 16px;
+}
+.modal-edit textarea{
+  margin-bottom: 30px;
+  width: 80%;
+  height: 300px;
+  border-radius: 3px;
+  border: solid 1px grey;
+  font-size: 16px;
+}
+.countermovies{
+    color:red;
+}
